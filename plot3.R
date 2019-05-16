@@ -1,5 +1,5 @@
 #CodingInR
-#Exploratory Data Analysis Week 1 Project - Plot 1
+#Exploratory Data Analysis Week 1 Project - Plot 3
 #Download and construct plot, export to png file
 
 require("lubridate")
