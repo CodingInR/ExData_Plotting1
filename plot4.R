@@ -1,5 +1,5 @@
 #CodingInR
-#Exploratory Data Analysis Week 1 Project - Plot 1
+#Exploratory Data Analysis Week 1 Project - Plot 4
 #Download and construct plot, export to png file
 
 require("lubridate")
@@ -27,7 +27,7 @@ if(nrow(plotDat)>3000){
   plotDat<-plotDat[,c(10,3:9)]
 }
 
-#Plot3
+#Plot4
 png("plot4.png", width = 480, height = 480)
 #setup 4 plots
 par(mfrow=c(2,2))
