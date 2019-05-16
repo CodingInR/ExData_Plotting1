@@ -1,5 +1,5 @@
 #CodingInR
-#Exploratory Data Analysis Week 1 Project - Plot 1
+#Exploratory Data Analysis Week 1 Project - Plot 2
 #Download and construct plot, export to png file
 
 require("lubridate")
@@ -27,7 +27,7 @@ if(nrow(plotDat)>3000){
   plotDat<-plotDat[,c(10,3:9)]
 }
 
-#Plot1
+#Plot2
 png("plot2.png", width = 480, height = 480)
 plot(plotDat$date_time,plotDat$Global_active_power, 
      xlab =NA,
